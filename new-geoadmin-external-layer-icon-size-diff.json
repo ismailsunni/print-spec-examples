@@ -1,0 +1,243 @@
+{
+  "attributes": {
+    "map": {
+      "center": [2656157.1, 1255316.96],
+      "dpi": 254,
+      "projection": "EPSG:2056",
+      "rotation": 0,
+      "scale": 20000,
+      "layers": [
+        {
+          "baseURL": "https://wms.geo.ag.ch/public/ows?SERVICE=WMS&",
+          "imageFormat": "image/png",
+          "layers": ["ch_ag_geo_va_avwms_va_fplfp_01"],
+          "customParams": {
+            "TRANSPARENT": true,
+            "LANG": "en",
+            "TIME": null,
+            "CRS": "EPSG:2056"
+          },
+          "serverType": "mapserver",
+          "type": "wms",
+          "opacity": 1,
+          "version": "1.3.0",
+          "useNativeAngle": true,
+          "styles": [""]
+        },
+        {
+          "type": "wmts",
+          "baseURL": "https://sys-wmts.dev.bgdi.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/2056/{TileMatrix}/{TileCol}/{TileRow}.jpeg",
+          "dimensions": ["Time"],
+          "dimensionParams": {
+            "Time": "current"
+          },
+          "imageFormat": "jpeg",
+          "layer": "ch.swisstopo.pixelkarte-farbe",
+          "matrices": [
+            {
+              "identifier": 0,
+              "scaleDenominator": 14285714.285714287,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 1,
+              "scaleDenominator": 13392857.142857144,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 2,
+              "scaleDenominator": 12500000.000000002,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 3,
+              "scaleDenominator": 11607142.857142858,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 4,
+              "scaleDenominator": 10714285.714285715,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 5,
+              "scaleDenominator": 9821428.571428573,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 6,
+              "scaleDenominator": 8928571.42857143,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 7,
+              "scaleDenominator": 8035714.285714286,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 8,
+              "scaleDenominator": 7142857.142857144,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1, 1]
+            },
+            {
+              "identifier": 9,
+              "scaleDenominator": 6250000.000000001,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [2, 1]
+            },
+            {
+              "identifier": 10,
+              "scaleDenominator": 5357142.857142857,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [2, 1]
+            },
+            {
+              "identifier": 11,
+              "scaleDenominator": 4464285.714285715,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [2, 1]
+            },
+            {
+              "identifier": 12,
+              "scaleDenominator": 3571428.571428572,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [2, 2]
+            },
+            {
+              "identifier": 13,
+              "scaleDenominator": 2678571.4285714286,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [3, 2]
+            },
+            {
+              "identifier": 14,
+              "scaleDenominator": 2321428.571428572,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [3, 2]
+            },
+            {
+              "identifier": 15,
+              "scaleDenominator": 1785714.285714286,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [4, 3]
+            },
+            {
+              "identifier": 16,
+              "scaleDenominator": 892857.142857143,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [8, 5]
+            },
+            {
+              "identifier": 17,
+              "scaleDenominator": 357142.85714285716,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [19, 13]
+            },
+            {
+              "identifier": 18,
+              "scaleDenominator": 178571.42857142858,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [38, 25]
+            },
+            {
+              "identifier": 19,
+              "scaleDenominator": 71428.57142857143,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [94, 63]
+            },
+            {
+              "identifier": 20,
+              "scaleDenominator": 35714.28571428572,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [188, 125]
+            },
+            {
+              "identifier": 21,
+              "scaleDenominator": 17857.14285714286,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [375, 250]
+            },
+            {
+              "identifier": 22,
+              "scaleDenominator": 8928.57142857143,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [750, 500]
+            },
+            {
+              "identifier": 23,
+              "scaleDenominator": 7142.857142857143,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [938, 625]
+            },
+            {
+              "identifier": 24,
+              "scaleDenominator": 5357.142857142858,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1250, 834]
+            },
+            {
+              "identifier": 25,
+              "scaleDenominator": 3571.4285714285716,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [1875, 1250]
+            },
+            {
+              "identifier": 26,
+              "scaleDenominator": 1785.7142857142858,
+              "tileSize": [256, 256],
+              "topLeftCorner": [2420000, 1350000],
+              "matrixSize": [3750, 2500]
+            }
+          ],
+          "matrixSet": "EPSG:2056",
+          "opacity": 1,
+          "requestEncoding": "REST",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "copyright": "© Geodaten des Kantons Aargau, swisstopo",
+    "url": "https://sys-s.dev.bgdi.ch/l66j9jf1g0j2",
+    "qrimage": "https://sys-map.dev.bgdi.ch/api/qrcode/generate?url=https%3A%2F%2Fsys-s.dev.bgdi.ch%2Fl66j9jf1g0j2",
+    "printLegend": 0
+  },
+  "format": "pdf",
+  "layout": "1. A4 landscape",
+  "lang": "en",
+  "outputFilename": "sys-map.dev.bgdi.ch_${yyyy-MM-dd'T'HH-mm-ss'Z'}"
+}
