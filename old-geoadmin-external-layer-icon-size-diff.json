@@ -1,0 +1,69 @@
+{
+  "app": "config",
+  "dpi": "254",
+  "enableLegends": false,
+  "lang": "en",
+  "layers": [
+    {
+      "baseURL": "https://wmts100.geo.admin.ch",
+      "dimensions": ["TIME"],
+      "formatSuffix": "jpeg",
+      "layer": "ch.swisstopo.pixelkarte-farbe",
+      "matrixSet": "2056",
+      "maxExtent": [2420000, 1030000, 2900000, 1350000],
+      "opacity": 1,
+      "params": {
+        "TIME": "current"
+      },
+      "requestEncoding": "REST",
+      "resolutions": [
+        4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250,
+        1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5, 0.25
+      ],
+      "style": "default",
+      "tileOrigin": [2420000, 1350000],
+      "tileSize": [256, 256],
+      "type": "WMTS",
+      "version": "1.0.0",
+      "zoomOffset": 0
+    },
+    {
+      "baseURL": "https://wms.geo.ag.ch/public/ows?SERVICE=WMS&",
+      "customParams": {
+        "CRS": "EPSG:2056",
+        "EXCEPTIONS": "XML",
+        "TRANSPARENT": "true",
+        "VERSION": "1.3.0"
+      },
+      "format": "image/png",
+      "layers": ["ch_ag_geo_va_avwms_va_fplfp_01"],
+      "opacity": "1",
+      "singleTile": false,
+      "styles": [""],
+      "type": "WMS"
+    }
+  ],
+  "layout": "1 A4 landscape",
+  "legends": [],
+  "movie": false,
+  "pages": [
+    {
+      "bbox": [
+        2653335.7222222215, 1253325.2777777778, 2658994.2777777775,
+        1257064.7222222222
+      ],
+      "center": [2656164.9999999995, 1255195],
+      "dataOwner": "© swisstopo, wms.geo.ag.ch",
+      "display": [802, 530],
+      "langen": true,
+      "rotation": 0,
+      "scale": "20000.0",
+      "shortLink": "https://s.geo.admin.ch/ea1w7nbvwyjo",
+      "timestamp": ""
+    }
+  ],
+  "qrcodeurl": "https://map.geo.admin.ch/api/qrcode/generate?url=https://s.geo.admin.ch/ea1w7nbvwyjo",
+  "rotation": 0,
+  "srs": "EPSG:2056",
+  "units": "m"
+}
