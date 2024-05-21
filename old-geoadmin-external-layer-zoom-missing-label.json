@@ -1,0 +1,685 @@
+{
+  "layout": "1 A4 landscape",
+  "srs": "EPSG:2056",
+  "units": "m",
+  "rotation": 0,
+  "app": "config",
+  "lang": "en",
+  "dpi": "254",
+  "layers": [
+    {
+      "opacity": 1,
+      "layer": "ch.swisstopo.pixelkarte-farbe",
+      "type": "WMTS",
+      "version": "1.0.0",
+      "requestEncoding": "REST",
+      "formatSuffix": "jpeg",
+      "style": "default",
+      "dimensions": ["TIME"],
+      "params": {
+        "TIME": "current"
+      },
+      "matrixSet": "2056",
+      "baseURL": "https://wmts100.geo.admin.ch",
+      "zoomOffset": 0,
+      "tileOrigin": [2420000, 1350000],
+      "tileSize": [256, 256],
+      "resolutions": [
+        4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250,
+        1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5, 0.25
+      ],
+      "maxExtent": [2420000, 1030000, 2900000, 1350000]
+    },
+    {
+      "opacity": 1,
+      "layer": "ch.meteoschweiz.messwerte-lufttemperatur-10min",
+      "type": "Vector",
+      "styles": {
+        "31": {
+          "id": 31,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.2 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "32": {
+          "id": 32,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fcbbaa",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "8 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "33": {
+          "id": 33,
+          "rotation": 0,
+          "externalGraphic": "https://data.geo.admin.ch/ch.meteoschweiz/images/nodata14.png",
+          "fillOpacity": 1,
+          "graphicWidth": 4.960629921259843,
+          "graphicHeight": 4.960629921259843,
+          "graphicXOffset": -2.4803149606299213,
+          "graphicYOffset": -2.4803149606299213,
+          "strokeOpacity": 0
+        },
+        "34": {
+          "id": 34,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fcbbaa",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "8.9 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "35": {
+          "id": 35,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.4 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "36": {
+          "id": 36,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.7 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "37": {
+          "id": 37,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "38": {
+          "id": 38,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "39": {
+          "id": 39,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.9 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "40": {
+          "id": 40,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.6 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "41": {
+          "id": 41,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "43": {
+          "id": 43,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fc9272",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "10.6 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "44": {
+          "id": 44,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fc9272",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "10 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "46": {
+          "id": 46,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fff0f5",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "2.5 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "52": {
+          "id": 52,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12.9 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "59": {
+          "id": 59,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fcbbaa",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "6.6 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "66": {
+          "id": 66,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fb6a4a",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "12 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        "72": {
+          "id": 72,
+          "rotation": 0,
+          "pointRadius": 7,
+          "graphicWidth": 2.1343542687085373,
+          "graphicHeight": 2.1343542687085373,
+          "graphicXOffset": -1.0671771343542686,
+          "graphicYOffset": -1.0671771343542686,
+          "fillColor": "#fc9272",
+          "fillOpacity": 0.9,
+          "strokeWidth": 0.7086614173228346,
+          "strokeColor": "#0e5072",
+          "strokeOpacity": 0.9,
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "label": "10.6 °C",
+          "labelXOffset": 0,
+          "labelYOffset": 20,
+          "labelAlign": "cm",
+          "fontColor": "#ffffff",
+          "fontFamily": "FRUTIGERNEUEW02-REGULAR,FRUTIGER,SANS-SERIF",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        }
+      },
+      "styleProperty": "_gx_style",
+      "geoJson": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2707638.08, 1226334.18]
+            },
+            "properties": {
+              "_gx_style": 31
+            },
+            "id": "LAC"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2713515.37, 1247751.74]
+            },
+            "properties": {
+              "_gx_style": 32
+            },
+            "id": "HOE"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2660127.8, 1232850.4]
+            },
+            "properties": {
+              "_gx_style": 33
+            },
+            "id": "MOA"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2679454.88, 1245033.85]
+            },
+            "properties": {
+              "_gx_style": 34
+            },
+            "id": "UEB"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2693842.9, 1230741.24]
+            },
+            "properties": {
+              "_gx_style": 35
+            },
+            "id": "WAE"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2677758.87, 1226878]
+            },
+            "properties": {
+              "_gx_style": 36
+            },
+            "id": "CHZ"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2685117.31, 1248061.23]
+            },
+            "properties": {
+              "_gx_style": 37
+            },
+            "id": "SMA"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2699400.9, 1248164.9]
+            },
+            "properties": {
+              "_gx_style": 38
+            },
+            "id": "PFA"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2648389.88, 1248365.12]
+            },
+            "properties": {
+              "_gx_style": 39
+            },
+            "id": "BUS"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2665539.89, 1209846.96]
+            },
+            "properties": {
+              "_gx_style": 40
+            },
+            "id": "LUZ"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2682506.17, 1205572.46]
+            },
+            "properties": {
+              "_gx_style": 41
+            },
+            "id": "GES"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2691000.04, 1215145.22]
+            },
+            "properties": {
+              "_gx_style": 43
+            },
+            "id": "SAG"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2699984.27, 1221062.38]
+            },
+            "properties": {
+              "_gx_style": 44
+            },
+            "id": "EIN"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2661909.62, 1203410.48]
+            },
+            "properties": {
+              "_gx_style": 46
+            },
+            "id": "PIL"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2640419.55, 1245944.71]
+            },
+            "properties": {
+              "_gx_style": 52
+            },
+            "id": "GOE"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2638132.57, 1206076.11]
+            },
+            "properties": {
+              "_gx_style": 59
+            },
+            "id": "NAP"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2642913.6, 1225540.12]
+            },
+            "properties": {
+              "_gx_style": 66
+            },
+            "id": "EGO"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2643684.53, 1199709.96]
+            },
+            "properties": {
+              "_gx_style": 72
+            },
+            "id": "SPF"
+          }
+        ]
+      },
+      "name": "ch.meteoschweiz.messwerte-lufttemperatur-10min"
+    }
+  ],
+  "legends": [],
+  "enableLegends": false,
+  "qrcodeurl": "https://map.geo.admin.ch/api/qrcode/generate?url=https://s.geo.admin.ch/xp0d354ftecw",
+  "movie": false,
+  "pages": [
+    {
+      "center": [2673200, 1224500],
+      "bbox": [
+        2630760.8333333335, 1196454.1666666667, 2715639.1666666665,
+        1252545.8333333333
+      ],
+      "display": [802, 530],
+      "scale": "300000.0",
+      "dataOwner": "© swisstopo, MeteoSwiss",
+      "shortLink": "https://s.geo.admin.ch/xp0d354ftecw",
+      "rotation": 0,
+      "langen": true,
+      "timestamp": ""
+    }
+  ]
+}
