@@ -1,0 +1,83 @@
+{
+  "attributes": {
+    "map": {
+      "center": [2600709.204503349, 1199830.509670826],
+      "dpi": 254,
+      "projection": "EPSG:2056",
+      "rotation": 0,
+      "scale": 25000,
+      "layers": [
+        {
+          "baseURL": "https://wms.geo.admin.ch/",
+          "opacity": 1,
+          "singleTile": true,
+          "type": "WMS",
+          "layers": ["org.epsg.grid_2056"],
+          "format": "image/png",
+          "styles": [""],
+          "customParams": {
+            "TRANSPARENT": true,
+            "MAP_RESOLUTION": 215
+          }
+        },
+        {
+          "geoJson": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "geometry": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                    [
+                      [2599935.515672605, 1199595.968678292],
+                      [2600924.787096594, 1199449.8263075678],
+                      [2601007.7167076566, 1199437.57534293],
+                      [2601812.8391305627, 1199874.7941406327],
+                      [2601927.616458817, 1199937.123551069]
+                    ]
+                  ]
+                },
+                "properties": {
+                  "type": "linepolygon",
+                  "_mfp_style": "1"
+                }
+              }
+            ]
+          },
+          "opacity": 1,
+          "style": {
+            "version": 2,
+            "[_mfp_style = '1']": {
+              "symbolizers": [
+                {
+                  "type": "line",
+                  "strokeColor": "#ff0000",
+                  "strokeOpacity": 1,
+                  "strokeWidth": 1.062992125984252
+                }
+              ]
+            },
+            "[_mfp_style = '4']": {
+              "symbolizers": [
+                {
+                  "type": "point"
+                }
+              ]
+            }
+          },
+          "type": "geojson"
+        }
+      ]
+    },
+    "copyright": "© public.geo.admin.ch",
+    "url": "https://s.geo.admin.ch/5w29wsk401ze",
+    "qrimage": "https://map.geo.admin.ch/api/qrcode/generate?url=https%3A%2F%2Fs.geo.admin.ch%2F5w29wsk401ze",
+    "printDate": "7/25/2024, 8:35 PM",
+    "printLegend": 0
+  },
+  "format": "pdf",
+  "layout": "1. A4 landscape",
+  "lang": "en",
+  "outputFilename": "map.geo.admin.ch_${yyyy-MM-dd'T'HH-mm-ss'Z'}"
+}
